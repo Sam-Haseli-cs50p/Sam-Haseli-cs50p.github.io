@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Hashi | AI Programmer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/SamHaseli" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/SamHaseli/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/samhasel.i86/" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Sam Hashi</h1>
+            <p>Artificial Intelligence Programmer</p>
+            <button class="programmer-mode">Toggle Programmer Mode</button>
+        </section>
+        <section class="programmer-mode-content">
+            <pre>
+                <code>
+                    // Sam Hashi's AI Programming Zone
+
+                    // Importing necessary libraries
+                    import tensorflow as tf
+                    import numpy as np
+
+                    // Defining a neural network model
+                    model = tf.keras.models.Sequential([
+                        tf.keras.layers.Dense(64, activation='relu', input_shape=(784,)),
+                        tf.keras.layers.Dense(32, activation='relu'),
+                        tf.keras.layers.Dense(10, activation='softmax')
+                    ])
+
+                    // Compiling the model
+                    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
+                    // Training the model
+                    model.fit(X_train, y_train, epochs=10)
+
+                    // Evaluating the model
+                    model.evaluate(X_test, y_test)
+                </code>
+            </pre>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
